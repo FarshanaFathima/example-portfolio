@@ -5,9 +5,33 @@
 
 ## Work Experience
 **Machine Learning Engineer @ Quantrium Tech Private Ltd (_June 2021 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
-
+- Payslip Analyzer
+- - Designed and developed a payslip analyzer, that extracted and transformed HTML and PDF OCR information into
+key-value pairs. The solution achieved over 90% accuracy for header key-value pairs and 85% accuracy for
+tabular data key-value pairs, with a significant time improvement (30x faster than the manual process).
+- - Trained machine learning models for named entity recognition of header entities, achieving an F1 score of 85%
+on all header entities. Implemented further enhancements, such as hyper-parameter tuning, dataset cleaning, and
+transfer learning, resulting in an additional 5% improvement.
+• Implemented a clustering algorithm utilizing bounding box information to categorize payslips, effectively reducing
+over 6000 payslips to 360 unique classes, representing a substantial 94% reduction in the dataset's
+complexity. This approach significantly enhanced the dataset's manageability and analysis capabilities.
+• Implemented MLflow for tracking experiments, logging metrics, and managing artifacts to enhance reproducibility
+and model management.
+Tax Auditing Analyzer
+• Designed the system architecture, including creating the architecture diagram and defining the Docker containers,
+Kafka queues, and MongoDB database schema design.
+• Developed modules to process extracted information from the Payslip Analyzer and Form26AS Analyzer, perform
+comparisons and calculations, and present the data in a tabular format in Excel.
+Financial Statements Analyzer
+• Led a team of 3 engineers to create an end-to-end AI solution from proof of concept to production, capable of
+analyzing balance sheets, extracting information using AWS, and computing key financial ratios with 88%
+accuracy.
+• Exploring Integration of LLM with Few Shot Learning to improve financial ratio computation using Vertex AI
+(Gemini 1.5 Pro).
+Bank Statements Analyzer
+• Led a team of 7 engineers in delivering 3 key features for the Bank Statements Analyzer product, including loan
+analysis worksheets, credit inflows and debit outflows tracking, and merging multiple bank statements for the same
+customer.
 **Machine Learning Intern @ Quantrium Tech Private Ltd (_December 2020 - June 2021_)**
 - Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
 - Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
